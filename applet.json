@@ -1,0 +1,38 @@
+[
+    {
+     "Applet_No": "Applet 1 - Basic Events",
+     "Description": "This application contains the basic implementation of DOM events.",
+     "file": "applet-1.html",
+     "Image": "https://i.pinimg.com/originals/36/e4/d0/36e4d0b856694fc471344b644a1dd6e4.gif"
+    },
+    {
+      "Applet_No": "Applet 2 - Leaflet Map",
+      "Description": "This application contains the basic web map.",
+      "file": "applet-2.html",
+      "Image": "https://i.pinimg.com/originals/1d/30/b5/1d30b5a0c298c02edaf2f501b22a6587.gif"
+     },
+     {
+      "Applet_No": "Applet 3 - Event Logger",
+      "Description": "This contains the logs with the date and total number of logs.",
+      "file": "applet-3.html",
+      "Image": "https://i.pinimg.com/originals/38/55/9d/38559de45f1784e2a4310747c631b19b.gif"
+     },
+     {
+      "Applet_No": "Applet 4 - Dynamic Elements",
+      "Description": "This contains the search bar of the data that has on the applet-4.json file.",
+      "file": "applet-4.html",
+      "Image": "https://i.pinimg.com/originals/e4/28/15/e428152eecbc597a0617dc7be7c7d418.gif"
+     },
+     {
+      "Applet_No": "Applet 5 - Open weather",
+      "Description": "This contains the details of weather based on the specific location",
+      "file": "applet-5.html",
+      "Image": "https://i.pinimg.com/originals/13/fe/c7/13fec72339fe314355219ab8cf88503e.gif"
+     },
+     {
+      "Applet_No": "Applet 6 - To-Do list",
+      "Description": "This contains the list of the specific task based on the user's input.",
+      "file": "applet-6.html",
+      "Image": "https://i.pinimg.com/originals/e2/ea/85/e2ea8542d1ae1b4c96d933bf9396417b.gif"
+     }
+  ]

@@ -3,50 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
-</head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 <body>
-    <header>
-        <nav class="header">
-            <div class="header-left">
-                <a href="index.html" class="logo">SAMPLE CV</a>
+    <nav id="desktop-nav">
+        <div class="logo">Kien</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="applet-1.html">App Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="dropdn-nav">
+        <div class="logo">Kien</div>
+        <div class="dropdn-menu">
+            <div class="dropdn-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="header-right">
-                <a href="services.html" class="active">Services</a>
-                <a href="resume.html">Resume</a>
-                <a href="about.html">About</a>
-                <a href="testi.html.html">Testimonials</a>
-                <a href="index.html">Home</a>
+            <div class="menu-link">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="applet.html">App Gallery</a></li>
             </div>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="services">
-            <h1 class="section-title">My Services</h1>
-            <div class="service-container">
-                <div class="service">
-                    <h2>IT Troubleshooting</h2>
-                    <p>Quickly diagnose and resolve technical issues to keep your systems running smoothly.</p>
-                </div>
-                <div class="service">
-                    <h2>Custom Software Development</h2>
-                    <p>Develop tailored software solutions to meet your business needs and improve efficiency.</p>
-                </div>
-                <div class="service">
-                    <h2>Network Setup and Management</h2>
-                    <p>Set up and manage your network infrastructure for optimal performance and security.</p>
-                </div>
-                <div class="service">
-                    <h2>Data Backup and Recovery</h2>
-                    <p>Implement data backup solutions and recover lost data to ensure your business continuity.</p>
-                </div>
+        </div>
+    </nav>
+</section>
+<section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Frontend Development</h2>
+        <div class="article-container">
+          <article>
+            <img
+              src="c:\assests\ver-pic.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>HTML</h3>
+              <p>Experienced</p>
             </div>
-        </section>
-    </main>
+          </article>
+          <article>
+            <img
+              src="c:\assests\ver-pic.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>CSS</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="c:\assests\ver-pic.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>JavaScript</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="c:\assests\ver-pic.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>TypeScript</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="c:\assests\ver-pic.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Material UI</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+        </div>
+      </div>
+   
 
-    <script src="script.js"></script>
 </body>
 </html>
-

@@ -3,52 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    <header>
-        <nav class="header">
-            <div class="header-left">
-                <a href="index.html" class="logo">SAMPLE CV</a>
-            </div>
-            <div class="header-right">
-                <a href="services.html">Services</a>
-                <a href="resume.html">Resume</a>
-                <a href="about.html" class="active">About</a>
-                <a href="testi.html.html">Testimonials</a>
-                <a href="index.html">Home</a>
-            </div>
-        </nav>
-    </header>
-  </nav>
-  <section id="about">
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section_pic-container">
-          <img
-            src="c:\Users\gamer1\Downloads\h.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
+    <nav id="desktop-nav">
+        <div class="logo">Kien</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="applet.html">App Gallery</a></li>
+            </ul>
         </div>
- 
+    </nav>
+    <nav id="dropdn-nav">
+        <div class="logo">Kien</div>
+        <div class="dropdn-menu">
+            <div class="dropdn-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="applet.html">App Gallery</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section_pic-container">
+            <img
+              src="c:\assests\prof-pic.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
           </div>
-          <div class="text-container">
-            <p>
-              Hi, I'm Kien, an IT freelancer with a passion for technology. My journey began with a curiosity 
-              for computers, leading me to earn a degree in Information Technology. I’ve worked in various roles,
-              from system administration to software development, which has equipped me with a diverse skill set.
-              As a freelancer, i help clients from startups to established companies optimize their systems, 
-              troubleshoot issues, and develop custom solutions. My approach is client-focused, ensuring I 
-              understand their unique needs and deliver results that exceed expectations.
-            </p>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="c:\assests\ver-pic.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>2+ years <br />Frontend Development</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="c:\assests\about-pic.jpg"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>Bachelor of Science in Information Technology<br />M.Sc. Masters Degree</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Hi, I'm Kien, an IT freelancer with a passion for technology. My journey began with a curiosity 
+                for computers, leading me to earn a degree in Information Technology. I’ve worked in various roles,
+                from system administration to software development, which has equipped me with a diverse skill set.
+                As a freelancer, I help clients—from startups to established companies—optimize their systems, 
+                troubleshoot issues, and develop custom solutions. My approach is client-focused, ensuring I 
+                understand their unique needs and deliver results that exceed expectations.
+                Outside of work, I enjoy staying updated on tech trends and exploring new tools. 
+                I believe in continuous learning and love taking on new challenges. If you’re looking for 
+                dedicated IT support, I’d be excited to collaborate!
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      
-    </section>
+        
+      </section>
+   
 
-    <script src="script.js"></script>
 </body>
 </html>
